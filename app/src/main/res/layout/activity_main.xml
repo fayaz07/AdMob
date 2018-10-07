@@ -12,14 +12,14 @@
         android:layout_gravity="center_vertical|center_horizontal"
         android:orientation="vertical">
 
-        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/adView"
-            android:layout_width="wrap_content"
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:id="@+id/adView"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
             ads:adSize="BANNER"
-            ads:adUnitId="@string/a1"></com.google.android.gms.ads.AdView>
+            ads:adUnitId="@string/a1" />
 
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView2"

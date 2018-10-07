@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">AdMob</string>
 
-    <string name="i1">ca-app-pub-2362748331716930/8742697245</string>
-    <string name="i2">ca-app-pub-2362748331716930/2061738829</string>
-    <string name="i3">ca-app-pub-2362748331716930/6251183706</string>
-
     <string name="a1">ca-app-pub-2362748331716930/9643633802</string>
     <string name="a2">ca-app-pub-2362748331716930/2205618173</string>
     <string name="a3">ca-app-pub-2362748331716930/9557085469</string>
